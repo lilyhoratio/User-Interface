@@ -67,10 +67,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header nav a {
-	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	color: lightgray;
 	display: inline-block;
 	text-decoration: none;
+	padding: 20px;
 }
 
 header nav {
@@ -78,13 +80,15 @@ header nav {
 }
 
 h1 {
-	font-size: 400%;
+	font-size: 450%;
 }
 
 .title {
 	display: inline-block;
 	width: 49%;
 	text-align: center;
+	margin: 20px;
+	/* vertical-align: middle; */
 }
 
 div {
@@ -96,14 +100,35 @@ div {
 .top-section {
 	display: inline-block;
 	width: 49%;
+	padding: 20px;
 }
 
 .bottom-section {
 	display: inline-block;
 	width: 32%;
+	padding: 20px;
 }
 
 button {
 	border: 1px solid black;
-	
+	font-size: 120%
+}
+
+footer {
+	text-align: center;
+}
+
+address {
+	margin-left: 30px;
+}
+
+.middle-img {
+	margin-left: auto;
+	margin-right: auto;
+	width:95%;
+	display: block; /* ask PM about this */
+}
+
+hr {
+	width: 95%;
 }
