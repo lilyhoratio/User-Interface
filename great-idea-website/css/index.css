@@ -87,16 +87,15 @@ h1 {
 	display: inline-block;
 	width: 49%;
 	text-align: center;
-	margin: 20px;
-	/* vertical-align: middle; */
+	vertical-align: 5em;;
 }
 
 div {
 	width: 876px;
-	/* border-top-color: black;
-	border: 2px; */
 	margin: 10px;
+	/* border: 2px solid red; */
 }
+
 .top-section {
 	display: inline-block;
 	width: 49%;
@@ -111,7 +110,6 @@ div {
 
 button {
 	border: 1px solid black;
-	font-size: 120%
 }
 
 footer {
